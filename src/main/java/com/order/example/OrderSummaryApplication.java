@@ -149,6 +149,8 @@ public class OrderSummaryApplication {
         });
 
 
+        log.info("Job Execution Finished Successfully . Please check file : {} " , outputDataPath);
+
     }
 
 }

@@ -24,7 +24,13 @@
             </goals>
           </execution>
         </executions>
-        <configuration />
+        <configuration>
+          <transformers>
+            <transformer>
+              <mainClass>com.order.example.OrderSummaryApplication</mainClass>
+            </transformer>
+          </transformers>
+        </configuration>
       </plugin>
     </plugins>
   </build>
